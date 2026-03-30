@@ -1,18 +1,18 @@
 # 🛠️ Linux Automation Toolkit
 _Bash scripting • Cron jobs • Git workflow • Docker containerization_  
-Part of my **CompTIA Linux+ XK0-005** hands-on study path.
+Part of my **CompTIA Linux+ XK0-005** hands on study path.
 
 ---
 
 ## 📌 Project Goal
-Automate routine Linux administration tasks with a Bash script, schedule it via `cron`, and containerize it with Docker for portable execution.
+Automate routine Linux administration tasks with a Bash script, schedule it via `cron` and containerize it with Docker for portable execution.
 
 | Feature | What it Proves |
 |---------|----------------|
-| **Bash script (`disk_alert.sh`)** | Command-line fluency, I/O redirection, conditions |
-| **Cron job** | Recurring automation & log management |
-| **Dockerfile** | Container basics & reproducible builds |
-| **GitHub repo** | Version-controlled, well-documented portfolio artifact |
+| **Bash script (`disk_alert.sh`)** | Command line fluency, I/O redirection, conditions |
+| **Cron job** | Recurring automation and log management |
+| **Dockerfile** | Container basics and reproducible builds |
+| **GitHub repo** | Version-controlled, well documented portfolio artifact |
 
 ---
 
@@ -60,7 +60,7 @@ fi
 echo "$MESSAGE" >> "$LOGFILE"
 ```
 
-*Key Bash concepts:* shebang, variables, command substitution, `awk`, comparison operators, redirection.
+* Key Bash concepts:* shebang, variables, command substitution, `awk`, comparison operators, redirection.
 
 ---
 
@@ -132,7 +132,7 @@ docker run --rm disk_alert.img
 - Parameterize the script to monitor multiple mount points.  
 - Add email or Slack notifications on warning.  
 - Use Docker volumes to persist logs outside container.  
-- Integrate this with Ansible for fleet-wide deployment.
+- Integrate this with Ansible for fleet wide deployment.
 
 ---
 
